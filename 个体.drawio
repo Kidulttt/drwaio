@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T13:05:50.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="OjTObR6VGm5EdsbmEJuk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T13:21:04.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OsBQh6TpyhGjv7lgN_rm" version="22.1.3" type="github">
   <diagram name="第 1 页" id="Xj4ISEZawkmmb7QDeOOE">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YHOu187AHXPKsQL73Xt_-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="YHOu187AHXPKsQL73Xt_-1" target="YHOu187AHXPKsQL73Xt_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-1" value="gene&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;1&lt;/font&gt;&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="YHOu187AHXPKsQL73Xt_-2" target="YHOu187AHXPKsQL73Xt_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-2" value="gene&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;2&lt;/font&gt;&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-3" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="YHOu187AHXPKsQL73Xt_-4" target="YHOu187AHXPKsQL73Xt_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-4" value="gene&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;N&lt;/font&gt;&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-6" value="Individual i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="304" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-7" value="index&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;i,1&lt;/font&gt;&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="205" y="300" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-14" value="index&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;i,2&lt;/font&gt;&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="285" y="300" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-15" value="index&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;i,N&lt;/font&gt;&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="445" y="300" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;t&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;i,1&lt;/font&gt;&lt;/sub&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="205" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;t&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;i,2&lt;/font&gt;&lt;/sub&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="285" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;t&lt;sub style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;i,N&lt;/font&gt;&lt;/sub&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="445" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-24" value="index: Task select No. indexi,j time window" style="text;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="205" y="400" width="325" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHOu187AHXPKsQL73Xt_-25" value="t: Relative start time of task execution" style="text;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="205" y="440" width="375" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
