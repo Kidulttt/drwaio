@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T06:53:21.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.0.2" etag="bsNqaxcz6jgXBHhZojIj" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T08:07:09.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="pJmMmPXn_DRcSmd8hORo" version="23.1.0" type="github">
   <diagram name="第 1 页" id="KiDxgMfIGVkPw2DcD6gg">
-    <mxGraphModel>
+    <mxGraphModel dx="1468" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7ES7whTb7M1mk1Huspgx-64" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="280" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-2" target="7ES7whTb7M1mk1Huspgx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="148" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-4" target="7ES7whTb7M1mk1Huspgx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-4" value="采用混合编码方式初始化种群并引入优秀个体" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="130" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-5" target="7ES7whTb7M1mk1Huspgx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-5" value="交叉操作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-6" target="7ES7whTb7M1mk1Huspgx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-6" value="变异操作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="270" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-8" target="7ES7whTb7M1mk1Huspgx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-8" value="选择操作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-9" target="7ES7whTb7M1mk1Huspgx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-9" value="计算目标值与约束值" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-10" target="7ES7whTb7M1mk1Huspgx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-10" target="7ES7whTb7M1mk1Huspgx-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="43" y="740" />
+              <mxPoint x="43" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-10" value="是否满足终止条件" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="710" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-11" target="7ES7whTb7M1mk1Huspgx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-11" target="7ES7whTb7M1mk1Huspgx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-11" value="是否为可行解" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-12" target="7ES7whTb7M1mk1Huspgx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-12" value="计算任务动态冲突度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="430" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="7ES7whTb7M1mk1Huspgx-13" target="7ES7whTb7M1mk1Huspgx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-13" value="“消除”造成冲突最大的任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="118" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-31" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="148" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="199" y="770" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-61" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-62" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="298" y="470" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="158" y="399" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ES7whTb7M1mk1Huspgx-67" value="冲突消解策略" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="30" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
